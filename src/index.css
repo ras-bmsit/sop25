@@ -234,3 +234,43 @@
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
 }
+html, body {
+  cursor: url('/cursors/astro_arrow.cur'), auto;
+}
+/* Default arrow */
+body {
+  cursor: url('/cursors/astro_arrow.cur'), auto;
+}
+
+/* Links, buttons */
+a, button {
+  cursor: url('/cursors/astro_link.cur'), pointer;
+}
+
+/* Unavailable */
+.not-allowed {
+  cursor: url('/cursors/astro_unavail.cur'), not-allowed;
+}
+
+/* Move items */
+.move-item {
+  cursor: url('/cursors/astro_move.cur'), move;
+}
+
+/* Resize directions */
+.resize-ns { cursor: url('/cursors/astro_ns.cur'), ns-resize; }
+.resize-ew { cursor: url('/cursors/astro_ew.cur'), ew-resize; }
+.resize-nesw { cursor: url('/cursors/astro_nesw.cur'), nesw-resize; }
+.resize-nwse { cursor: url('/cursors/astro_nwse.cur'), nwse-resize; }
+
+/* Wait + Working animations */
+.waiting { cursor: url('/cursors/astro_busy.ani'), wait; }
+.loading { cursor: url('/cursors/astro_working.ani'), progress; }
+
+/* Pen or drawing */
+.pen-mode {
+  cursor: url('/cursors/astro_pen.cur'), crosshair;
+}
+input, textarea, [contenteditable="true"] {
+  cursor: text !important;
+}
