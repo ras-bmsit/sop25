@@ -236,6 +236,7 @@
 }
 html, body {
   cursor: url('/cursors/astro_arrow.cur'), auto;
+  scroll-behavior: smooth;
 }
 /* Default arrow */
 body {
