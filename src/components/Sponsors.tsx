@@ -1,12 +1,12 @@
 
 const Sponsors = () => {
   const sponsors = [
-    { name: "Mushroom Kingdom", level: "Gold Star" },
-    { name: "Princess Castle", level: "Gold Star" },
-    { name: "Yoshi's Island", level: "Silver Coin" },
-    { name: "Wario Wares", level: "Silver Coin" },
-    { name: "Bowser Inc.", level: "Bronze Shell" },
-    { name: "Luigi's Mansion", level: "Bronze Shell" }
+    { name: "Sponsor 1", level: "Gold Star" },
+    { name: "Sponsor 2", level: "Gold Star" },
+    { name: "Sponsor 3", level: "Silver Coin" },
+    { name: "Sponsor 4", level: "Silver Coin" },
+    { name: "Sponsor 5", level: "Bronze Shell" },
+    { name: "Sponsor 6", level: "Bronze Shell" }
   ];
 
   return (

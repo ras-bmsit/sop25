@@ -3,25 +3,40 @@ import { Gamepad, Star, Coins, Download } from "lucide-react";
 
 const PowerUps = () => {
   const powerUps = [
-    {
-      title: "Mushroom Tournaments",
-      description: "Grow your gaming skills with tournaments and prizes",
-      icon: <Gamepad className="h-10 w-10 text-red-500" />
-    },
-    {
-      title: "Star Power Arcade",
-      description: "Become invincible in our classic arcade zone",
-      icon: <Star className="h-10 w-10 text-yellow-300" />
-    },
-    {
-      title: "Warp Pipe VR",
-      description: "Transport to new worlds with virtual reality games",
-      icon: <Gamepad className="h-10 w-10 text-green-500" />
-    },
-    {
-      title: "Coin Collection",
-      description: "Learn from gaming pros in our workshops",
-      icon: <Coins className="h-10 w-10 text-yellow-400" />
+    { title: "Code Kart Nitro",
+    description: "Arduino & ESP32 coding for motors, sensors, gesture & wireless control",
+    icon: (
+      <span className="text-3xl" role="img" aria-label="light bulb and plug">
+        💡🔌
+      </span>
+    ),
+  },
+  {
+    title: "Grip Master Tires",
+    description: "High-torque motor setups, traction techniques, and weight balancing for power bots",
+    icon: (
+      <span className="text-3xl" role="img" aria-label="bolt and tire">
+        🔩🛞
+      </span>
+    ),
+  },
+  {
+    title: "Solder Banana",
+    description: "Circuit building, soldering motors, sensors, & power supply systems",
+    icon: (
+      <span className="text-3xl" role="img" aria-label="banana and fire">
+        🍌🔥
+      </span>
+    ),
+  },
+  {
+    title: "Sensor Seeker Shell",
+    description: "IR/ultrasonic sensor integration for autonomous movement & obstacle handling",
+    icon: (
+      <span className="text-3xl" role="img" aria-label="turtle and eyes">
+        🐢👀
+      </span>
+    ),
     }
   ];
 
