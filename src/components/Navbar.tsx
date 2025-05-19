@@ -68,7 +68,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#join"
+              href="https://ras-bmsit.github.io/"
               className="hover:text-yellow-300 transition-colors duration-200"
             >
               JOIN
@@ -128,7 +128,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#join"
+                href="https://ras-bmsit.github.io/"
                 className="block px-3 py-1 hover:text-yellow-300"
                 onClick={() => setIsMenuOpen(false)}
               >
