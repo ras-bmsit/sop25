@@ -69,23 +69,23 @@ const Hero = () => {
     </div>
 
     {/* Countdown Blocks */}
-    <div className="flex gap-3">
+    <div className="flex gap-3 justify-center mb-4">
       {[days, hours, minutes, seconds].map((value, idx) => {
         const labels = ["DAYS", "HRS", "MINS", "SECS"];
         return (
           <div
             key={idx}
-            className="question-block p-3 rounded w-15 flex flex-col items-center bg-black/20"
-            style={{ minWidth: "70px" }}
+            className="question-block p-3 rounded w-20 flex flex-col items-center bg-black/20"
+            style={{ minWidth: "80px" }}
           >
-            <div className="text-3xl font-bold">{value}</div>
+            <div className="text-3xl font-bold text-purple-700">{value}</div>
             <div className="text-xs tracking-widest">{labels[idx]}</div>
           </div>
         );
       })}
     </div>
 
-    <div className="flex gap-5">
+    <div className="flex gap-6 justify-center">
       <a
         href="https://forms.gle/WCaBa7tV343sGfPN8"
         target="_blank"
