@@ -9,9 +9,9 @@ const Navbar = () => {
     <nav className="bg-red-600 text-white p-4 sticky top-0 z-10 shadow-lg mario-font text-sm">
       <div className="container mx-auto flex justify-between items-center">
         <div className="font-bold text-xl flex items-center">
-          <span className="text-yellow-300">SUMMER OF</span>
-          <span className="text-white ml-1">  PROJECTS</span>
-          <span className="text-green-400 ml-1"> 25</span>
+          <span className="text-yellow-300">S</span>
+          <span className="text-white ml-1">  OP</span>
+          <span className="text-green-400 ml-1"> '25</span>
         </div>
 
         {/* Mobile Menu Button */}
@@ -132,7 +132,7 @@ const Navbar = () => {
                 className="block px-3 py-1 hover:text-yellow-300"
                 onClick={() => setIsMenuOpen(false)}
               >
-                JOIN QUEST
+                JOIN
               </a>
             </li>
           </ul>
