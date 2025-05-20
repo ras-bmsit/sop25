@@ -86,7 +86,7 @@ const Hero = () => {
     </div>
 
     <div className="flex gap-6">
-      <button className="mario-button hover:scale-105 transition-transform">REGISTER NOW</button>
+      <button href="https://forms.gle/WCaBa7tV343sGfPN8"  className="mario-button hover:scale-105 transition-transform">REGISTER NOW</button>
       <a
         href="/brochure.pdf"
         target="_blank"
