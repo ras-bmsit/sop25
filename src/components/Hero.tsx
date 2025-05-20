@@ -75,8 +75,8 @@ const Hero = () => {
         return (
           <div
             key={idx}
-            className="question-block p-3 rounded w-20 flex flex-col items-center bg-white/20"
-            style={{ minWidth: "80px" }}
+            className="question-block p-3 rounded w-15 flex flex-col items-center bg-black/20"
+            style={{ minWidth: "70px" }}
           >
             <div className="text-3xl font-bold">{value}</div>
             <div className="text-xs tracking-widest">{labels[idx]}</div>
@@ -85,13 +85,13 @@ const Hero = () => {
       })}
     </div>
 
-    <div className="flex gap-6">
-  <a
-    href="https://forms.gle/WCaBa7tV343sGfPN8"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="mario-button hover:scale-105 transition-transform"
-  >
+    <div className="flex gap-5">
+      <a
+        href="https://forms.gle/WCaBa7tV343sGfPN8"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mario-button hover:scale-105 transition-transform"
+      >
     REGISTER NOW
   </a>
       
