@@ -48,7 +48,7 @@ const Hero = () => {
   <div className="absolute inset-0 opacity-10 pointer-events-none">
     <div
       className="w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImNsb3VkcyIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNMCAwIEwxMCAxMCBMMjAgMCBMMzAgMTAgTDQwIDAgTDQwIDIwIEwzMCAzMCBMMjAgMjAgTDEwIDMwIEwwIDIwIEwwIDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2Nsb3VkcykiIC8+PC9zdmc+')]"
-      style={{ backgroundSize: "40px 40px" }}
+      style={{ backgroundSize: "35px 35px" }}
     ></div>
   </div>
 
@@ -57,7 +57,7 @@ const Hero = () => {
     <h1 className="text-4xl md:text-5xl font-bold tracking-widest mario-font">
       <span className="text-yellow-300">Summer of</span>
       <span className="text-white"> Projects</span>
-      <span className="text-green-400">25</span>
+      <span className="text-green-400"> 25</span>
     </h1>
 
     <div className="flex items-center gap-1 text-xl text-yellow-300">
