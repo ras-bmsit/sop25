@@ -3,7 +3,13 @@ const Schedule = () => {
     {
       day: "DAY 1 - MAY 31",
       events: [
-        { time: "Coming Soon", title: "TBD", description: "Details will be revealed soon..." }
+        { time: "09:00 AM – 09:15 AM", title: "Reporting Time", description: "Participants arrive and check in." },
+        { time: "09:15 AM – 10:00 AM", title: "Inauguration", description: "Opening ceremony and welcome note." },
+        { time: "10:00 AM – 01:00 PM", title: "Workshop", description: "Interactive session with industry experts." },
+        { time: "01:00 PM – 01:45 PM", title: "Lunch Break", description: "Refreshments and networking." },
+        { time: "01:45 PM – 03:30 PM", title: "Project Building", description: "Teams work on their assigned projects." },
+        { time: "03:30 PM – 06:00 PM", title: "Competition", description: "Presentation and evaluation of projects." },
+        { time: "06:00 PM", title: "Dispersal", description: "Closing of Day 1 and departure." }, 
       ]
     },
     {
@@ -31,9 +37,7 @@ const Schedule = () => {
       <h2 className="text-2xl font-bold text-center mb-4 text-green-600 border-b-4 border-yellow-400 pb-2 inline-block mario-font">
         SCHEDULE
       </h2>
-      <div className="text-center text-sm font-semibold text-red-600 bg-yellow-100 border border-yellow-400 px-4 py-2 rounded-full w-fit mx-auto mb-10 animate-bounce">
-        🚨 REGISTRATION OPEN NOW! 🚨
-      </div>
+     
 
       <div className="flex flex-col gap-8">
         {events.map((day, dayIndex) => (
