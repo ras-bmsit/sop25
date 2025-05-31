@@ -1,11 +1,13 @@
 import { Trophy, Coins } from "lucide-react";
 
 const Leaderboard = () => {
-  // Updated data: Teams with 2 points each
+  // Team data: sorted by points (descending)
   const topTeams = [
+    { teamNumber: "Team 31", points: 4 },
     { teamNumber: "Team 5", points: 2 },
     { teamNumber: "Team 21", points: 2 },
-    { teamNumber: "Team 31", points: 2 },
+    { teamNumber: "Team 25", points: 2 },
+    { teamNumber: "Team 32", points: 2 },
   ];
 
   return (
@@ -31,24 +33,16 @@ const Leaderboard = () => {
               </tr>
             </thead>
             <tbody>
-              {topTeams.length > 0 ? (
-                topTeams.map((team, index) => (
-                  <tr key={index} className="hover:bg-blue-700 transition-colors">
-                    <td className="py-3 px-4 text-white mario-font">{index + 1}</td>
-                    <td className="py-3 px-4 text-white mario-font">{team.teamNumber}</td>
-                    <td className="py-3 px-4 text-white mario-font flex items-center gap-2">
-                      <Coins className="text-yellow-400 w-4 h-4" />
-                      {team.points}
-                    </td>
-                  </tr>
-                ))
-              ) : (
-                <tr>
-                  <td colSpan={3} className="text-center py-6 text-white mario-font">
-                    No teams yet. Stay tuned!
+              {topTeams.map((team, index) => (
+                <tr key={index} className="hover:bg-blue-700 transition-colors">
+                  <td className="py-3 px-4 text-white mario-font">{index + 1}</td>
+                  <td className="py-3 px-4 text-white mario-font">{team.teamNumber}</td>
+                  <td className="py-3 px-4 text-white mario-font flex items-center gap-2">
+                    <Coins className="text-yellow-400 w-4 h-4" />
+                    {team.points}
                   </td>
                 </tr>
-              )}
+              ))}
             </tbody>
           </table>
         </div>
@@ -59,4 +53,3 @@ const Leaderboard = () => {
 
 export default Leaderboard;
 
-export default Leaderboard;
