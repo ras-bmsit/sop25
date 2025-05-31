@@ -3,11 +3,13 @@ import { Trophy, Coins } from "lucide-react";
 const Leaderboard = () => {
   // Team data: sorted by points (descending)
   const topTeams = [
-     { teamNumber: "Team 31", points: 6 },
+  { teamNumber: "Team 30", points: 15 },
+    { teamNumber: "Team 5", points: 12 },
+    { teamNumber: "Team 23", points: 10 },
+    { teamNumber: "Team 31", points: 6 },
+    { teamNumber: "Team 24", points: 4 },
     { teamNumber: "Team 2", points: 2 },
-    { teamNumber: "Team 5", points: 2 },
     { teamNumber: "Team 21", points: 2 },
-    { teamNumber: "Team 23", points: 2 },
     { teamNumber: "Team 25", points: 2 },
     { teamNumber: "Team 32", points: 2 },
   ];
